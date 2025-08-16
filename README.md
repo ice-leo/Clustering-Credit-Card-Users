@@ -36,7 +36,7 @@ This project attempts to cluster BPI credit card users using data provided by BP
 
 | Map of Transactions |
 | -------------------- |
-| ![Map of Transacrions](./assets/transaction_map.png) |
+| ![Map of Transacrions](./images/transaction_map.png) |
 
 ### Feature Engineering
 
