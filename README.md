@@ -74,7 +74,7 @@ This project attempts to cluster BPI credit card users using data provided by BP
   - One-Hot Encoding for: `BUSINESS_OWNER`, `DIGITAL_FLAG`, `INCOME_SOURCE`, `IDV_OR_ORG`, `GENDER`, `MARITAL_STATUS`.
   - Label Encoding for ordinal features: `EDUCATION`, `REGION`, `SUBSEGMENT` (Sethi, 2023).
 - Applied logarithmic transformation to reduce right-skewness and the impact of outliers (preferred by K-Means).
-- Standardized features using `StandardScaler` so all features are on the same scale (Ryzhkov, 2020).
+- Standardized features using `StandardScaler` in some trials and `MinMaxScaler` in other trials so all features are on the same scale (Ryzhkov, 2020).
 
 ### Clustering
 
@@ -85,7 +85,7 @@ This project attempts to cluster BPI credit card users using data provided by BP
 
 ## Results
 
-- Trial 4 had the best results (MinMax Scaler used on all features)
+- Trial 3 had the best results (MinMax Scaler used on all features)
 - Hyperparameter Tuning:
   - Best Number of Clusers: **10**
   - Silhouette Score: **0.5992**
