@@ -2,8 +2,9 @@ BPI DATA SCIENCE INTERNSHIP PROGRAM 2024 PROJECT
 
 # Clustering of Credit Card Users
 
+| | |
+| :-------------------- | :-------------------: |
 | **Project Start Date:** | June 13, 2024  |
-| -------------------- | -------------------- |
 | **Project End Date:** | August 6, 2024   |
 | **Project Creators:** | Isaiah John Mariano, Jeremiah Daniel Regalario   |
 | **University:** | University of the Philippines - Diliman   |
