@@ -85,10 +85,12 @@ This project attempts to cluster BPI credit card users using data provided by BP
 
 ## Results
 
-- Explained Variance Ratio was used to select components; 25 features retained.
+- Trial 4 had the best results (MinMax Scaler used on all features)
+- Hyperparameter Tuning:
+  - Best Number of Clusers: 10
+  - Silhouette Score: 0.5992
 - Cluster validation:
-  - Elbow method suggests a large number of clusters.
-  - Silhouette scores were low (approximately 0.11–0.24), indicating clusters are not very well separated.
+  - Elbow method suggests 5 as the number of clusters with silhouette score ~0.5
 
 ---
 
