@@ -55,6 +55,10 @@ This project attempts to cluster BPI credit card users using data provided by BP
 | -------------------- |
 | ![Map of Transacrions](./images/transaction_map.png) |
 
+| Aggregated Transactions |
+| -------------------- |
+| ![Map of Transacrions](./images/aggre_trends.png) |
+
 ### Feature Engineering
 
 - Added Recency, Frequency, and Monetary features for RFM analysis.
@@ -77,12 +81,6 @@ This project attempts to cluster BPI credit card users using data provided by BP
 - Cluster validation:
   - Elbow method suggests a large number of clusters.
   - Silhouette scores were low (approximately 0.11–0.24), indicating clusters are not very well separated.
-
----
-
-## Discussion
-
-*(Content was present in the original document but left visually sparse. Consider adding interpretation of clusters, characteristics of each cluster, business implications, and recommended next steps.)*
 
 ---
 
