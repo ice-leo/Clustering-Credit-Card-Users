@@ -57,6 +57,14 @@ This project attempts to cluster BPI credit card users using data provided by BP
 | -------------------- |
 | ![Map of Transacrions](./images/aggre_trends.png) |
 
+| Heatmap of Numerical Features |
+| -------------------- |
+| ![Map of Transacrions](./images/numerical_features_heatmap.jpg) |
+
+| Merch Group + Channel Barplot |
+| -------------------- |
+| ![Map of Transacrions](./images/merchgroup_channel_bar.jpg) |
+
 ### Feature Engineering
 
 - Added Recency, Frequency, and Monetary features for RFM analysis.
@@ -64,19 +72,21 @@ This project attempts to cluster BPI credit card users using data provided by BP
   - One-Hot Encoding for: `BUSINESS_OWNER`, `DIGITAL_FLAG`, `INCOME_SOURCE`, `IDV_OR_ORG`, `GENDER`, `MARITAL_STATUS`.
   - Label Encoding for ordinal features: `EDUCATION`, `REGION`, `SUBSEGMENT` (Sethi, 2023).
 - Applied logarithmic transformation to reduce right-skewness and the impact of outliers (preferred by K-Means).
-- Standardized features using `StandardScaler` so all features are on the same scale (Ryzhkov, 2020).
+- Standardized features using `StandardScaler` in some trials and `MinMaxScaler` in other trials so all features are on the same scale (Ryzhkov, 2020).
 
 ### Clustering
 
 - Algorithm used: **K-Means** with **PCA** for dimensionality reduction.
-- Decided to retain **25 features** based on explained variance ratio.
+- Decided to retain **5 features** based on explained variance ratio.
 
 ## Results
 
-- Explained Variance Ratio was used to select components; 25 features retained.
+- Trial 3 had the best results (MinMax Scaler used on all features)
+- Hyperparameter Tuning:
+  - Best Number of Clusers: **10**
+  - Silhouette Score: **0.5992**
 - Cluster validation:
-  - Elbow method suggests a large number of clusters.
-  - Silhouette scores were low (approximately 0.11–0.24), indicating clusters are not very well separated.
+  - Elbow method suggests **5** as the number of clusters with silhouette score **~0.5**
 
 ## Appendix
 
