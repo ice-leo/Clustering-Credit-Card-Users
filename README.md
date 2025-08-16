@@ -59,6 +59,14 @@ This project attempts to cluster BPI credit card users using data provided by BP
 | -------------------- |
 | ![Map of Transacrions](./images/aggre_trends.png) |
 
+| Heatmap of Numerical Features |
+| -------------------- |
+| ![Map of Transacrions](./images/numerical_features_heatmap.jpg) |
+
+| Merch Group + Channel Barplot |
+| -------------------- |
+| ![Map of Transacrions](./images/merchgroup_channel_bar.jpg) |
+
 ### Feature Engineering
 
 - Added Recency, Frequency, and Monetary features for RFM analysis.
