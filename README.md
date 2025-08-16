@@ -1,10 +1,14 @@
+BPI DATA SCIENCE INTERNSHIP PROGRAM 2024	
+PROJECT DOCUMENTATION
+
+
 # Clustering of Credit Card Users
 
 **Project Start Date:** June 13, 2024  
 **Project End Date:** August 6, 2024  
 **Project Creators:** Isaiah Mariano, Jeremiah Regalario  
 **University:** University of the Philippines Diliman  
-**Project Tags:** k-means, pca, credit card
+**Project Tags:** _k-means_, _pca_, _credit card_
 
 ---
 
