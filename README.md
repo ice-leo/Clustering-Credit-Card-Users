@@ -35,8 +35,6 @@ Banks in modern day Philippines typically tailor their services in order to meet
 
 This project attempts to cluster BPI credit card users using data provided by BPI. Nine datasets were provided, and exploratory data analysis (EDA) was conducted on all of them to gain useful insights and to determine which parts of the data to consider in the clustering process.
 
----
-
 ## Methods
 
 ### Data Preparation
@@ -73,16 +71,12 @@ This project attempts to cluster BPI credit card users using data provided by BP
 - Algorithm used: **K-Means** with **PCA** for dimensionality reduction.
 - Decided to retain **25 features** based on explained variance ratio.
 
----
-
 ## Results
 
 - Explained Variance Ratio was used to select components; 25 features retained.
 - Cluster validation:
   - Elbow method suggests a large number of clusters.
   - Silhouette scores were low (approximately 0.11–0.24), indicating clusters are not very well separated.
-
----
 
 ## Appendix
 
@@ -97,12 +91,12 @@ This project attempts to cluster BPI credit card users using data provided by BP
 - ChatGPT. (October 13, 2023). *Insurance Requirements by Employment Type*.
 - Claude. (October 13, 2023). *Key elements of a health insurance business model*.
 
----
-
 ## Core Contributors
 
 - [Jeremiah Daniel Regalario](https://github.com/jeremiahdanielregalario)
 - [Isaiah John Mariano](https://github.com/ice-leo)
+
+---
 
 ## References
 
@@ -120,5 +114,3 @@ This project attempts to cluster BPI credit card users using data provided by BP
 - Sharma, A. (2020, September 7). *How to Master the Popular DBSCAN Clustering Algorithm for Machine Learning*. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2020/09/how-dbscan-clustering-works/
 - Shawky Elgendy (n.d.). *Customer Segmentation - EDA, K-Means, PCA*. Kaggle. https://www.kaggle.com/code/shawkyelgendy/customer-segmentation-eda-k-means-pca/notebook?fbclid=IwAR1cig7xnspaDnVLqZ28klS7Qm9PPesx12olVu5gcfK--E4hqBMPL3ps0gg
 - Yadav, N. (n.d.). *Customer Segmentation using K-Means, HC, DBSCAN*. Kaggle. https://www.kaggle.com/code/niteshyadav3103/customer-segmentation-using-kmeans-hc-dbscan
-
----
