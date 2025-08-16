@@ -79,7 +79,7 @@ This project attempts to cluster BPI credit card users using data provided by BP
 ### Clustering
 
 - Algorithm used: **K-Means** with **PCA** for dimensionality reduction.
-- Decided to retain **25 features** based on explained variance ratio.
+- Decided to retain **5 features** based on explained variance ratio.
 
 ---
 
@@ -87,10 +87,10 @@ This project attempts to cluster BPI credit card users using data provided by BP
 
 - Trial 4 had the best results (MinMax Scaler used on all features)
 - Hyperparameter Tuning:
-  - Best Number of Clusers: 10
-  - Silhouette Score: 0.5992
+  - Best Number of Clusers: **10**
+  - Silhouette Score: **0.5992**
 - Cluster validation:
-  - Elbow method suggests 5 as the number of clusters with silhouette score ~0.5
+  - Elbow method suggests **5** as the number of clusters with silhouette score **~0.5**
 
 ---
 
