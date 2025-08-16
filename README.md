@@ -3,14 +3,13 @@ BPI DATA SCIENCE INTERNSHIP PROGRAM 2024 PROJECT
 # Clustering of Credit Card Users
 
 <table>
-  <caption>Project Details</caption>
   <tbody>
     <tr>
-      <th scope="row">Project Start Date:</th>
+      <th scope="row">Project Start Date</th>
       <td>June 13, 2024</td>
     </tr>
     <tr>
-      <th scope="row">Project End Date:</th>
+      <th scope="row">Project End Date</th>
       <td>August 6, 2024</td>
     </tr>
     <tr>
@@ -18,11 +17,11 @@ BPI DATA SCIENCE INTERNSHIP PROGRAM 2024 PROJECT
       <td>Isaiah John Mariano, Jeremiah Daniel Regalario</td>
     </tr>
     <tr>
-      <th scope="row">University:</th>
+      <th scope="row">University</th>
       <td>University of the Philippines - Diliman</td>
     </tr>
     <tr>
-      <th scope="row">Project Tags:</th>
+      <th scope="row">Project Tags</th>
       <td><em>k-means</em>, <em>pca</em>, <em>credit card</em></td>
     </tr>
   </tbody>
