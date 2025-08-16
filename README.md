@@ -125,7 +125,6 @@ The following summarizes the clustering trials and their EDA/validation findings
   - Cluster 0 → Visayas
   - Cluster 2 → Mindanao
 - Clusters 1/3/4 show higher spend (Southern Luzon + NCR); clusters 2 & 5 show lower frequency.
-**Placeholders for images:**
 - ![Trial2 Scree Plot](./images/trial2_scree.png)
 - ![Trial2 Correlation Matrix](./images/trial2_correlation.png)
 - ![Trial2 PCA Pairplot](./images/trial2_pca_pairplot.png)
@@ -146,7 +145,6 @@ The following summarizes the clustering trials and their EDA/validation findings
   - **Cluster 2:** higher frequency and amount (higher spenders).
   - **Cluster 4:** older-age-heavy cluster.
 - Other clusters show similar distributions in many RFM features.
-**Placeholders for images:**
 - ![Trial3 Scree Plot](./images/trial3_scree.png)
 - ![Trial3 Correlation Matrix](./images/trial3_correlation.png)
 - ![Trial3 PCA Pairplot](./images/trial3_pca_pairplot.png)
