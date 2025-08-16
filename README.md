@@ -1,5 +1,5 @@
 BPI DATA SCIENCE INTERNSHIP PROGRAM 2024	
-PROJECT DOCUMENTATION
+PROJECT
 
 
 # Clustering of Credit Card Users
@@ -33,6 +33,10 @@ This project attempts to cluster BPI credit card users using data provided by BP
 - Conducted bivariate analysis using boxplots, scatterplots, and bar plots to present relationships between two variables.
 - Created multivariate analyses including scatterplots, box plots, 3D plots, and Pearson correlation heatmaps.
 - Plotted mean and median plots and removed null values where necessary.
+
+| Map of Transactions |
+| -------------------- |
+| ![Map of Transacrions](./assets/transaction_map.png) |
 
 ### Feature Engineering
 
@@ -79,6 +83,11 @@ This project attempts to cluster BPI credit card users using data provided by BP
 - Claude. (October 13, 2023). *Key elements of a health insurance business model*.
 
 ---
+
+## Core Contributors
+
+- [Jeremiah Daniel Regalario](https://github.com/jeremiahdanielregalario)
+- [Isaiah John Mariano](https://github.com/ice-leo)
 
 ## References
 
