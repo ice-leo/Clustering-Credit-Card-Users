@@ -131,7 +131,7 @@ Below summarizes the EDA/validation findings from trial 3:
 - ChatGPT. (October 13, 2023). *Insurance Requirements by Employment Type*.
 - Claude. (October 13, 2023). *Key elements of a health insurance business model*.
 
-## Core Contributors
+## Authors
 
 - [Jeremiah Daniel Regalario](https://github.com/jeremiahdanielregalario)
 - [Isaiah John Mariano](https://github.com/ice-leo)
